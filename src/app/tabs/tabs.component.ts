@@ -48,7 +48,7 @@ export class TabsComponent implements AfterContentInit {
     instance.isCloseable = isCloseable;
 
     this.dynamicTabs.push(instance);
-    
+
     this.selectTab(this.dynamicTabs[this.dynamicTabs.length - 1]);
   }
 
@@ -85,4 +85,4 @@ export class TabsComponent implements AfterContentInit {
     // activate the tab the user has clicked on.
     tab.active = true;
   }
-} 
+}
